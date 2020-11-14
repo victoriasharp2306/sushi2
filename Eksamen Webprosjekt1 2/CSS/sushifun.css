@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+html, body{
+    height: 4000px;
+    margin: 0;
+    font-family:'Permanent Marker', cursive;
+    overflow: hidden;
+}
+#logo{
+    font-size: 3rem;
+    text-decoration: none;
+    color: white; 
+    margin-left: 1rem;
+}
+
+#logo span{
+    color: rgb(255, 0, 0 );
+}
+
+#main-page-header{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#main-page-header ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+#main-page-header li{
+    margin-right: 25px;
+    
+}
+
+#main-page-header nav a{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+    text-decoration: none;
+    display: block;
+    font-family: monospace;
+    font-size: 1.5rem;  
+}
+
+#main-page-header nav a:hover{
+    color: rgb(64,64,64);
+}
+
+.overskrift{
+    font-family: 'Russo One', sans-serif;
+    font-size: 2rem; 
+     text-align: center;
+    margin: 20px; 
+    background-color:;
+     color:black;
+}
+
+.overskrift:hover{
+    color:;
+}
+.underoverskrift{
+    font-family: 'Russo One', sans-serif;
+     text-align: center;
+      font-size: 1.5rem;
+    background-color:;
+     color:black;
+}
+.underoverskrift:hover{
+    color:;
+    
+}
+
+#tallerken{
+      display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+    
+}
+
+#edamame{
+    width:10%;
+    top: -50px;
+    left: 20px;
+    
+}
+
+#sushichop{
+    width:10%;
+    top: -50px;
+    left: 20px;
+
+}
+
+#nigiri{
+     width: 10%;
+     top: -50px;
+     left: 20px;
+    
+    
+}
+
+@media (max-width: 568px){
+    #main-page-header ul{
+        flex-direction: column;
+    }
+}
+
